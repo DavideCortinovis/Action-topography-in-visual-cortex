@@ -34,6 +34,10 @@ We used the following GitHub repositories to extract the pretrained models analy
 
 **Moments-in-Time**: https://github.com/zhoubolei/moments_models contains pretrained models needed to replicate the analysis with ResNet (trained with ImageNet and Moments-in-Time).
 
+Script7: After obtaining the activations as described in the code for TDANN, it is possible to perform statistical analyses on the overlap values of the topographic networks. To make them more easily accessible, the overlap values are directly written on the script.
+
+For the other analysis (RSA and index) of all neural networks, similar scripts as for the fMRI can be used (scripts 4 and 5). The difference is that for statistical analyses permutations are needed: this can be generated with CosmoMVPA (script8).
+
 **REFERENCES**
 
  - Margalit, E., Lee, H., Finzi, D., DiCarlo, J. J., Grill-Spector, K., & Yamins, D. L. (2024). A unifying framework for  functional organization in early and higher ventral visual cortex. _Neuron_, _112_(14), 2435-2451.
