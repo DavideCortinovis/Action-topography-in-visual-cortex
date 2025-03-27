@@ -29,6 +29,7 @@ The respository contains a model_vector.mat file nedded for RSA: it contains thr
 We used the following GitHub repositories to extract the pretrained models analysed in the paper.
 
 **TDANN**: https://github.com/neuroailab/TDANN contains code to replicate the TDANN analysis, including model checkpoints and positions.
+
 **Moments-in-Time**: https://github.com/zhoubolei/moments_models contains pretrained models needed to replicate the analysis with ResNet (trained with ImageNet and Moments-in-Time).
 
 **REFERENCES**
